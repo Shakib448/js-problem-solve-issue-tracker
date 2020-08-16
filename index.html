@@ -41,16 +41,13 @@
               border-radius: 15px;
               color: white;
           }
-          .row {
-            margin-right: -150px;
-            margin-left: 50px;
-        }
+ 
             </style>
     </head>
 
     <body onload="fetchIssues()">
         <div class="container">
-                <h1>Issue Tracker: <span id="issueCount"></span> </h1>
+                <h1 class="text-center">Issue Tracker</h1>
             <div class="jumbotron">
                 <h3>Add New Issue</h3>
                 <form id="issueInputForm">
@@ -81,8 +78,11 @@
                     <button type="submit" class="btn btn-primary">Add</button>
                 </form>
             </div>
-            <div class="text-center">
-                <div class="row text-center ml-auto mr-auto" id="issuesList"></div>
+            <div class="container text-center">
+              <span id="issueCount"></span>
+              <div class="row">
+                <div id="issuesList"></div>
+              </div>
             </div>
         </div>
         <script

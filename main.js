@@ -93,7 +93,7 @@ const fetchIssues = () => {
         // ///////////////////////////////////////// This ( ? ) contains the if
         // estetment and the ( : ) this contains the else estetment
 
-        issuesList.innerHTML += `<div class="col-md-5">
+        issuesList.innerHTML += `<div class="col-md-6 row">
 		    	<div class="well">
 		      		<h6>Issue ID: ${id} </h6>
 					<p><span class="label label-info" style=${
