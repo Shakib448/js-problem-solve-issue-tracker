@@ -1,1 +1,1 @@
-"# js-problem-solve-issue-tracker" 
+<img src="img/issue-tracker.png">
